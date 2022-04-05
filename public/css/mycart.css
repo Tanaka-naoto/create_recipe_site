@@ -1,0 +1,34 @@
+.py-4 {
+    background-color: #f3eded;
+}
+
+.cul_area {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    border: 6px solid #e9e0ec;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.cul_area li {
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.cul_area li:last-child {
+    border-bottom: none;
+}
+
+.cul_area li .desc .make {
+    font-weight: bold;
+}
+.cul_area li .desc .name {
+    color: #795284;
+}
+
+.cul_area li p {
+    margin-bottom: 0px;
+}
